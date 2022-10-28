@@ -19,6 +19,16 @@ public class UsersController {
         return userService.getAll();
     }
 
+    @GetMapping("getAllSortedBySalaryDesc")
+    public List<User> getAllSortedBySalaryDesc(){
+        return userService.getAllSortedBySalaryDesc();
+    }
+
+    @GetMapping("getAllSortedBySalaryAsc")
+    public List<User> getAllSortedBySalaryAsc(){
+        return userService.getAllSortedBySalaryAsc();
+    }
+
     @GetMapping("getById")
     public User getById(@RequestParam int id){
         return userService.getById(id);

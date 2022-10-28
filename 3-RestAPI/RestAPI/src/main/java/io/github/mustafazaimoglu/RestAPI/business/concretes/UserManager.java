@@ -19,6 +19,16 @@ public class UserManager implements UserService {
     }
 
     @Override
+    public List<User> getAllSortedBySalaryDesc() {
+        return userDao.getAllSortedBySalaryDesc();
+    }
+
+    @Override
+    public List<User> getAllSortedBySalaryAsc() {
+        return userDao.getAllSortedBySalaryAsc();
+    }
+
+    @Override
     public User getById(int id) {
         return userDao.getById(id);
     }
