@@ -3,7 +3,7 @@
 ### Configuration On Virtual Box
 ### Port Forwarding
 
-![port_forwarding](/src/port_forwarding.png)
+![port_forwarding](./src/port_forwarding.png)
 
 <br>
 
@@ -13,7 +13,7 @@
   scp -P 3322 RestAPI.jar user@localhost:~/
 ```
 
-![sending_file](/src/sending_file.png)
+![sending_file](./src/sending_file.png)
 
 <br>
 
@@ -23,57 +23,57 @@
   ssh -p 3322 user@localhost
 ```
 
-![server_connection](/src/server_connection.png)
+![server_connection](./src/server_connection.png)
 
 <br>
 
 ### Running Jar file
 
-```bash
+```batch
   Java -jar RestAPI.jar
 ```
 
-![run_jar_file](/src/run_jar_file.png)
+![run_jar_file](./src/run_jar_file.png)
 
 <br>
 
 ### Overview of API on Swagger
 
-```http
+```batch
   http://localhost:3380/swagger-ui/index.html
 ```
 
-![api_specs](/src/api_specs.png)
+![api_specs](./src/api_specs.png)
 
 <br>
 
 ### Get Request On Postman
 
-```http
+```batch
   GET localhost:3380/api/users/getAll
 ```
 
-![postman_get_request](/src/postman_get_request.png)
+![postman_get_request](./src/postman_get_request.png)
 
 <br>
 
 ### Post Request On Postman (Adding My Indian Friend :))
 
-```http
+```batch
   POST localhost:3380/api/users/add
 ```
 
-![new_user_added](/src/new_user_added.png)
+![new_user_added](./src/new_user_added.png)
 
 <br>
 
 ### Get Request On Postman (Get All Sorted)
 
-```http
+```batch
   GET localhost:3380/api/users/getAllSortedBySalaryDesc
 ```
 
-![get_all_sorted_desc](/src/get_all_sorted_desc.png)
+![get_all_sorted_desc](./src/get_all_sorted_desc.png)
 
 ##### As you can see Deep is up there on the second line!
 
