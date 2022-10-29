@@ -79,6 +79,6 @@
 
 <br>
 
-<p style='text-align: right;'>
+<p align="right">
 <strong><i>Mustafa ZAİMOĞLU</i></strong>
 </p>
