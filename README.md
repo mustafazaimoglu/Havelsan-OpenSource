@@ -1,4 +1,4 @@
-# Hi!
-### In this repository I will be storing my homeworks in Open-Source Software Development class from Havelsan!
+# Hi, me again!
+### I did something terrible and deleted everything :)
 
-### Special Thanks to [Ali Orhun Akkirman](https://github.com/aliorhun) 
+
